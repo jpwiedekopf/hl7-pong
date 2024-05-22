@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.8.19-alpine3.18
 
 WORKDIR /app
 
@@ -10,3 +10,4 @@ EXPOSE 1337
 EXPOSE 666
 
 CMD ["python", "-u", "server.py"]
+
